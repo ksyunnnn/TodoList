@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  background: #fff;
+  color: #333;
+  padding: 2rem;
+}
+
+.todo-list {
+  min-height: 20vh;
+  margin-bottom: 1rem;
+}
+
+.todo {
+  line-height: 2rem;
+  height: 2rem;
+}
+
+.todo span {
+  margin-left: 0.5rem;
+  font-size: 0.8rem;
+  color: rgb(165, 165, 165);
+  cursor: pointer;
+}
+
+.todo span:hover {
+  color: rgba(165, 165, 165, 0.7);
+}
